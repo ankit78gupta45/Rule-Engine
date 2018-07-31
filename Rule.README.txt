@@ -1,4 +1,5 @@
-*** Briefly describe the conceptual approach you chose! What are the trade-offs?
+Q.1. Briefly describe the conceptual approach you chose! What are the trade-offs?
+
 Ans - The approach that I followed is in the following steps : 
 	1. User will provide inputs in the following order and format 
               **signal : {must be Alphanumeric user_input e.g : ATL1}
@@ -22,7 +23,8 @@ Ans - The approach that I followed is in the following steps :
 	* Exception Handling: In case of exception, the program terminated and tells why the exception occurred. 
 			    Mostly beacause of the wrong path provided, exception came in my case. 
  
-*** What's the runtime performance? What is the complexity? Where are the bottlenecks?
+Q.2. What's the runtime performance? What is the complexity? Where are the bottlenecks?
+
 Ans -   Runtime Performance of this ruleEngine is much faster as I have implemented it in Java which uses JIT compiler .
 	The time taken by this rule Engine to perform the task is around ~ 20 ms for inputs less than 10, after user have input all the values.
 	Also, as every dataset in the UserRule Inputs is matched with every inputs in raw_data inputs,
@@ -32,7 +34,8 @@ Ans -   Runtime Performance of this ruleEngine is much faster as I have implemen
 	1. It could be the time taken to input the rules by the users is high.
 	2. To input more than 100 rules its going to takes a lot of time by the user.
 
-*** If you had more time, what improvements would you make, and in what order of priority?
+Q.3. If you had more time, what improvements would you make, and in what order of priority?
+
 Ans -    ** I have Implemented first as a normal rule engine which can take any values,
 	 then i have improved it and added data validation to it,
 	 it wont accept if any wrong data tries to insert by user.
