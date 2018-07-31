@@ -1,3 +1,5 @@
+Note : User has to change the path of user-defined rules file and raw_data.json file from the project code.
+
 Q.1. Briefly describe the conceptual approach you chose! What are the trade-offs?
 
 Ans - The approach that I followed is in the following steps : 
